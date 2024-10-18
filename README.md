@@ -62,10 +62,6 @@ Rust
     - `Math.map` 
     - `Math.remap`
   + Should there be a corresponding `Math.fmap`? (ie. https://tc39.github.io/ecma262/#sec-math.fround, Step 3 & 4 convert result to IEEE 754-2008 binary32 (using roundTiesToEven), then to IEEE 754-2008 binary64).
-- `Math.constrain`
-  + Is it...
-    - `Math.constrain` 
-    - `Math.clamp`
 
 
 ### Polyfills

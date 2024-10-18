@@ -46,10 +46,6 @@
     return f32A[0];
   });
 
-  defineMath("clamp", function clamp(x, lower, upper) {
-    return Math.min(upper, Math.max(lower, x));
-  });
-
   defineMath("radians", function radians(degrees) {
     return degrees * Math.DEG_PER_RAD;
   });

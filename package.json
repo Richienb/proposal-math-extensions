@@ -19,8 +19,6 @@
     "Math.map",
     "Math.remap",
     "Math.scale",
-    "Math.clamp",
-    "Math.constrain",
     "Math.radians",
     "Math.degrees"
   ],

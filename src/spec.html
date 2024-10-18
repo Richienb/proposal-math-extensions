@@ -12,65 +12,6 @@ contributors: Rick Waldron
 </pre>
 
 
-<emu-clause id="sec-well-known-intrinsic-objects">
-  <h1>Well-Known Intrinsic Objects</h1>
-  <p>Additions</p>
-
-  <emu-table id="table-1" caption="Well-known Intrinsic Objects">
-    <table>
-      <tbody>
-        <tr>
-          <th>
-            Intrinsic Name
-          </th>
-          <th>
-            Global Name
-          </th>
-          <th>
-            ECMAScript Language Association
-          </th>
-        </tr>
-        <tr>
-          <td>
-            %Math_max%
-          </td>
-          <td>
-            `Math.max`
-          </td>
-          <td>
-            The `Math.max` function (<emu-xref href="#sec-math.max"></emu-xref>)
-          </td>
-        </tr>
-        <tr>
-          <td>
-            %Math_min%
-          </td>
-          <td>
-            `Math.min`
-          </td>
-          <td>
-            The `Math.min` function (<emu-xref href="#sec-math.min"></emu-xref>)
-          </td>
-        </tr>
-      </tbody>
-    </table>
-  </emu-table>
-</emu-clause>
-
-<emu-clause id="sec-math.clamp">
-  <h1>Math.clamp ( _x_, _lower_, _upper_ )</h1>
-
-  <p> When the `clamp` function is called, the following steps are taken:</p>
-
-  <emu-alg>
-    1. If any argument is *NaN*, return *NaN*.
-    1. Let _max_ be %Math_max%(_x_, _lower_).
-    1. Let _min_ be %Math_min%(_max_, _upper_).
-    1. Return _min_.
-  </emu-alg>
-</emu-clause>
-
-
 <emu-clause id="sec-math.scale">
   <h1>Math.scale ( _x_, _inLow_, _inHigh_, _outLow_, _outHigh_ )</h1>
 
